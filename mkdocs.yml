@@ -25,6 +25,7 @@ nav:
     - GitHub:
         - 'GitHub API': 'github/api/index.md'
         - 'Runners':    'github/runners/bash.md'
+        - 'GitHub App': 'github/github-app/get-temp-token.md'
     - GitLab:
         - 'Upgrade':
             - 'Minor version':          'gitlab/upgrade-minor-version.md'
