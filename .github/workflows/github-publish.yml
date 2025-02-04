@@ -46,6 +46,4 @@ jobs:
 
       - run: pip install mkdocs-mermaid2-plugin # https://github.com/fralau/mkdocs-mermaid2-plugin
 
-      - run: pip install mkdocs-drawio-file
-
       - run: mkdocs gh-deploy --force
