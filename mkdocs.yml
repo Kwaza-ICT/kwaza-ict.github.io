@@ -85,4 +85,3 @@ markdown_extensions:
 plugins:
   - search
   - mermaid2
-  - drawio_file
