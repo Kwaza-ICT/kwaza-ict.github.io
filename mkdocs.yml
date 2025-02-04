@@ -25,6 +25,7 @@ nav:
     - AI:
         - 'Basics':
             - 'Very basic': 'ai/basics/index.md'
+            - 'RAG':      'ai/basics/rag.md'
             - 'GenAI': 'ai/gen-ai/index.md'
         - 'Deep Learning':    'ai/dl.md'
     - GitHub:

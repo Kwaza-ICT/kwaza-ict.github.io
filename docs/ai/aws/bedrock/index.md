@@ -64,3 +64,19 @@ To ensure the foundation models are performing as expected.
 - **Human evaluation:** For subjective tasks like image, audio, video generation.
 - **Latency:** For real-time applications.
 - **Cost:** For cost-sensitive applications.
+
+## GuardRails
+
+ - Control the interaction between the model and the user.
+ - Filter out inappropriate content.
+ - Remove personaly identifiable information.
+ - Enhanced privacy and security.
+ - Reduce hallucinations and biases.
+
+## Agents
+
+ - Enable developers to create and manage autonomous agents of executing complex multi-step tasks.
+
+## CloudWatch
+
+ - Monitor and troubleshoot the performance of the foundation models.
