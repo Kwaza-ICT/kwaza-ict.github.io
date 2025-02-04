@@ -22,6 +22,11 @@ theme:
 
 nav:
     - Home: 'index.md'
+    - AI:
+        - 'Basics':
+            - 'Very basic': 'ai/basics/index.md'
+            - 'GenAI': 'ai/gen-ai/index.md'
+        - 'Deep Learning':    'ai/dl.md'
     - GitHub:
         - 'GitHub API': 'github/api/index.md'
         - 'Runners':    'github/runners/bash.md'
