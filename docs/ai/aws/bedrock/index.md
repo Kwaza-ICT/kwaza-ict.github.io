@@ -101,3 +101,9 @@ To ensure the foundation models are performing as expected.
 ### Batch
 
  - Can provide 50% discount
+
+### Provisioned Throughput
+
+ - Purchase model: 1 month, 6 months
+ - Throughput: max number of input/output
+ - Works with base, fine-tuned, and custom models
