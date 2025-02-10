@@ -27,7 +27,7 @@ nav:
             - 'Very basic': 'ai/basics/index.md'
             - 'RAG':      'ai/basics/rag.md'
             - 'GenAI': 'ai/gen-ai/index.md'
-        - 'Deep Learning':    'ai/dl.md'
+            - 'Prompt Engineering': 'ai/basics/prompt-engineering.md'
     - GitHub:
         - 'GitHub API': 'github/api/index.md'
         - 'Runners':    'github/runners/bash.md'
