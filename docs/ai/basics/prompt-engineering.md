@@ -43,3 +43,44 @@ Technique where you explicitly instruct the model on what not to include or do i
 
  - zero-shot prompt: Task to the model without providing examples
  - Few-shot prompt: Task to the model with a few examples
+ - Chain of thought: Provide a series of prompts to the model to generate a coherent response
+   - Divide the task into a sequence
+   - Helpful when solving a problem that requires multiple steps
+
+### Example of Chain of thought
+
+ - Task: Write a story about a detective solving
+   - FIRST
+   - THEN
+   - NEXT
+   - FINALLY
+
+Think step by step
+
+## RAG and prompt
+
+ - Combine the models capability with external data sources to generate more accurate and relevant responses
+ - The initial prompt is then augmented with the external info
+
+## Prompt templates
+
+ - Simplify and standardize the prompt creation process
+   - Reusable structure
+   - dynamic inputs
+   - consistency
+   - scalability
+
+### Where to use Prompt Templates
+
+ - Customer support chatbots
+ - content generation
+ - data extraction
+ - analysis
+
+### Prompt templates injection
+
+ - Ignoring the prompt template attack
+
+### How to protect
+
+ - Add explicit instructions instroction to ignore any unrelated malicious content
