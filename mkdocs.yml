@@ -28,6 +28,12 @@ nav:
             - 'RAG':      'ai/basics/rag.md'
             - 'GenAI': 'ai/gen-ai/index.md'
             - 'Prompt Engineering': 'ai/basics/prompt-engineering.md'
+        - 'Machine Learning':
+            - 'Basics': 'ai/ml/index.md'
+            - 'Training Data': 'ai/ml/training-data.md'
+        - 'AWS':
+            - 'Sagemaker': 'ai/aws/sagemaker/index.md'
+            - 'BedRock': 'ai/aws/bedrock/index.md'
     - GitHub:
         - 'GitHub API': 'github/api/index.md'
         - 'Runners':    'github/runners/bash.md'
