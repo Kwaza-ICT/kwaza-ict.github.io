@@ -43,3 +43,14 @@ Residual Networks (ResNets) are a type of deep learning model that uses residual
 
 Support Vector Machines (SVMs) are a type of supervised learning algorithm that is used for classification and regression tasks. SVMs work by finding the optimal hyperplane that separates the data points into different classes.
 
+### Wavenet
+
+WaveNet is a type of deep learning model that uses dilated convolutions to generate high-quality audio waveforms. WaveNet models have been used for various audio processing tasks, such as speech synthesis, music generation, and noise reduction.
+
+### Gan
+
+Generative Adversarial Networks (GANs) are a type of deep learning model that consists of two neural networks: a generator and a discriminator. GANs are used to generate realistic data samples, such as images, audio, and text.
+
+### XGBoost
+
+Extreme Gradient Boosting (XGBoost) is a type of ensemble learning algorithm that is used for classification and regression tasks. XGBoost works by combining multiple weak learners to create a strong learner that can make accurate predictions.
