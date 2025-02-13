@@ -32,7 +32,16 @@ nav:
             - 'Basics': 'ai/ml/index.md'
             - 'Training Data': 'ai/ml/training-data.md'
         - 'AWS':
-            - 'Sagemaker': 'ai/aws/sagemaker/index.md'
+            - 'Sagemaker':
+                - 'Basics': 'ai/aws/sagemaker/index.md'
+                - 'Canvas': 'ai/aws/sagemaker/canvas.md'
+                - 'Clarify': 'ai/aws/sagemaker/clarify.md'
+                - 'Data Wrangler': 'ai/aws/sagemaker/data-wrangler.md'
+                - 'Ground Truth': 'ai/aws/sagemaker/ground-truth.md'
+                - 'JumpStart': 'ai/aws/sagemaker/jumpstart.md'
+                - 'ML Governance': 'ai/aws/sagemaker/ml-governance.md'
+                - 'Model Monitor': 'ai/aws/sagemaker/model-monitor.md'
+                - 'Pipeline': 'ai/aws/sagemaker/pipeline.md'
             - 'BedRock': 'ai/aws/bedrock/index.md'
     - GitHub:
         - 'GitHub API': 'github/api/index.md'
