@@ -38,3 +38,9 @@ Data that does not have a specific format, such as text, images, or audio. Used 
  - Training set: Data used to train the model
  - Validation set: Data used to tune the model hyperparameters
  - Test set: Data used to evaluate the model performance
+
+## Feature Engineering
+
+The process of using Domain knowledge to select and transform raw data into meaning. 
+
+ - We can do feature Engineerning on structured data
