@@ -43,4 +43,28 @@ Data that does not have a specific format, such as text, images, or audio. Used 
 
 The process of using Domain knowledge to select and transform raw data into meaning. 
 
- - We can do feature Engineerning on structured data
+ - We can do feature Engineering on structured data
+
+## Unsupervised Learning (K-mean)
+
+ - No labeled data
+ - Data set contains only features
+ - Usage (isolation Forest)
+   - Market basket analysis
+   - Fraud detection
+
+## Semi supervised Learning
+
+ - Small amount of labeled data
+ - Huge amount of unlabeled data
+ - Generate humans label without humans
+
+## Reinforcement Learning
+
+ - Learn from the environment
+ - Learn from the feedback
+ - Learn from the reward
+ - Usage
+ - Game playing
+ - Robotics
+ - Self driving cars
