@@ -64,4 +64,22 @@ FullHunt is a cybersecurity search engine that provides information about securi
 
 Link: [FullHunt](https://fullhunt.io/)
 
+### 11 - Wayback Machine
+
+The Wayback Machine is a cybersecurity search engine that provides information about historical versions of websites. It allows users to search for information about specific websites and view historical versions of web pages. The Wayback Machine provides a range of tools and features to help users explore the history of the internet.
+
+Link: [Wayback Machine](https://archive.org/web/)
+
+### 12 - WiGLE
+
+WiGLE is a cybersecurity search engine that provides information about wireless networks. It allows users to search for information about specific wireless networks, such as Wi-Fi networks and other wireless devices. WiGLE provides a range of tools and features to help users identify and secure wireless networks.
+
+Link: [WiGLE](https://wigle.net/)
+
+### 13 - Gray Hat Warfare
+
+Gray Hat Warfare is a cybersecurity search engine that provides information about hacking tools and techniques. It allows users to search for information about specific hacking tools, techniques, and other cybersecurity-related topics. Gray Hat Warfare provides a range of tools and features to help users explore the world of hacking.
+
+Link: [Gray Hat Warfare](https://grayhatwarfare.com/)
+
 
