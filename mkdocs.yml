@@ -56,6 +56,7 @@ nav:
             - 'DB migration':           'gitlab/db-migration.md'
     - Hacking:
         - 'DNS': 'hacking/dns.md'
+        - 'Cybersecurity Search Engines': 'hacking/cyber-sec-search-engine.md'
     - Ubuntu:
         - 'APT':
             - 'Commands': 'ubuntu.md'
