@@ -21,6 +21,8 @@ theme:
     - navigation.instant
 
 nav:
+    - AWS:
+        - Data Store: 'aws/data-store/index.md'
     - Home: 'index.md'
     - AI:
         - 'Basics':
