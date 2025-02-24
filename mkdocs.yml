@@ -31,6 +31,11 @@ nav:
             - 'Network migration': 'aws/migration/network-migration.md'
             - 'TOGAF': 'aws/migration/togaf.md'
             - 'Migration tips': 'aws/migration/migration-tips.md'
+        - 'Network':
+            - 'About': 'aws/network/index.md'
+            - 'Network to VPC': 'aws/network/network-to-vpc.md'
+            - 'VPC to VPC': 'aws/network/vpc-to-vpc.md'
+            - 'internet gateway': 'aws/network/internet-gateway.md'
     - Home: 'index.md'
     - AI:
         - 'Basics':
