@@ -23,6 +23,14 @@ theme:
 nav:
     - AWS:
         - Data Store: 'aws/data-store/index.md'
+        - Migration:
+            - 'About': 'aws/migration/index.md'
+            - 'Hybrid architectures': 'aws/migration/hybrid-architectures.md'
+            - 'Migration applications': 'aws/migration/migration-applications.md'
+            - 'Migrating data': 'aws/migration/migrating-data.md'
+            - 'Network migration': 'aws/migration/network-migration.md'
+            - 'TOGAF': 'aws/migration/togaf.md'
+            - 'Migration tips': 'aws/migration/migration-tips.md'
     - Home: 'index.md'
     - AI:
         - 'Basics':
