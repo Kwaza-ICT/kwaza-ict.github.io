@@ -36,6 +36,13 @@ nav:
             - 'Network to VPC': 'aws/network/network-to-vpc.md'
             - 'VPC to VPC': 'aws/network/vpc-to-vpc.md'
             - 'internet gateway': 'aws/network/internet-gateway.md'
+            - 'Enhanced Networking': 'aws/network/enhanced-networking.md'
+            - 'Route Tables': 'aws/network/routing.md'
+            - 'Private Link': 'aws/network/private-link.md'
+            - 'Route 53': 'aws/network/route53.md'
+            - 'Global Accelerator': 'aws/network/global-accelerator.md'
+            - 'Hybrid and cross account network': 'aws/network/hybrid-and-cross-account-networking.md'
+            - 'CloudFront': 'aws/network/cloudfront.md'
     - Home: 'index.md'
     - AI:
         - 'Basics':
