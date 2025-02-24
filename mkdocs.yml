@@ -43,6 +43,7 @@ nav:
             - 'Global Accelerator': 'aws/network/global-accelerator.md'
             - 'Hybrid and cross account network': 'aws/network/hybrid-and-cross-account-networking.md'
             - 'CloudFront': 'aws/network/cloudfront.md'
+            - 'Elastic Load Balancer': 'aws/network/elastic-load-balancer.md'
     - Home: 'index.md'
     - AI:
         - 'Basics':
