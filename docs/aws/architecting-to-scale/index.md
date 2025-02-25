@@ -29,3 +29,41 @@ Components in a loosely coupled architecture are designed to be independent and 
  - Decoupled and asynchronous
  - Scalable and resilient
  - Can be implemented using services like Amazon SNS, SQS, and Lambda
+
+## Outputs
+
+ - Auto scaling groups:
+   - Know the different scaling policies and options
+   - Understand the difference and limitations between horizontal and vertical scaling
+   - Know what a cool down period is and how it might impact your responsiveness to demand
+ - Kinesis:
+   - Exam is likely to be restricted to the data stream use cases for kinesis such as data stream and firehose
+   - understand shard concept and how partition keys and sequences enabled shards to manage data
+ - DynamoDB Auto Scaling:
+    - know the new and old terminology and concept of a partition, partition key, and sort key
+    - Understand how DynamoDB calculates capacity units
+ - CloudFront Part 2:
+   - Know that both static and dynamic content is supported
+   - Understand possible origins and how multiple origins can be used together with behaviors
+   - Know invalidation methods, zone apex and geo-restriction
+ - SNS:
+   - Understand a loosely coupled architecture
+   - Know the different types of topics and how they can be used
+ - SQS:
+   - Understand the different types of queues and how they can be used
+   - Know the different types of message delivery and how they can be used
+ - Lambda:
+   - Understand the different types of triggers and how they can be used
+   - Know the different types of functions and how they can be used
+ - SWF:
+   - Understand the different types of workflows and how they can be used
+   - Best suited for human-enabled workflows like order fulfillment or procedural requests
+ - Elastic MapReduce:
+   - Understand the different types of clusters and how they can be used
+   - Know the different types of nodes and how they can be used
+ - Step functions:
+   - Managed workflow and orchestration platform considered preferred for modern development orver AWS Simple workflow service
+   - Supports tasks, sequential and parallel execution
+ - AWS Batch
+    - Ideal for use cases where a routine activity must be performed at a specific interval or time of day
+    - Behind the scenes, it uses EC2 instances to run the jobs
