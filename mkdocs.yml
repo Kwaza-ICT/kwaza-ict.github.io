@@ -21,16 +21,17 @@ theme:
     - navigation.instant
 
 nav:
+    - Home: 'index.md'
     - AWS:
         - Data Store: 'aws/data-store/index.md'
         - Migration:
-            - 'About': 'aws/migration/index.md'
-            - 'Hybrid architectures': 'aws/migration/hybrid-architectures.md'
-            - 'Migration applications': 'aws/migration/migration-applications.md'
-            - 'Migrating data': 'aws/migration/migrating-data.md'
-            - 'Network migration': 'aws/migration/network-migration.md'
-            - 'TOGAF': 'aws/migration/togaf.md'
-            - 'Migration tips': 'aws/migration/migration-tips.md'
+            - 'About': 'aws/migrations/index.md'
+            - 'Hybrid architectures': 'aws/migrations/hybrid-architectures.md'
+            - 'Migration applications': 'aws/migrations/migration-applications.md'
+            - 'Migrating data': 'aws/migrations/migrating-data.md'
+            - 'Network migration': 'aws/migrations/network-migration.md'
+            - 'TOGAF': 'aws/migrations/togaf.md'
+            - 'Migration tips': 'aws/migrations/migration-tips.md'
         - 'Network':
             - 'About': 'aws/networking/index.md'
             - 'Network to VPC': 'aws/networking/network-to-vpc.md'
@@ -44,7 +45,6 @@ nav:
             - 'Hybrid and cross account network': 'aws/networking/hybrid-and-cross-account-networking.md'
             - 'CloudFront': 'aws/networking/cloudfront.md'
             - 'Elastic Load Balancer': 'aws/networking/elastic-load-balancer.md'
-    - Home: 'index.md'
     - AI:
         - 'Basics':
             - 'Very basic': 'ai/basics/index.md'
