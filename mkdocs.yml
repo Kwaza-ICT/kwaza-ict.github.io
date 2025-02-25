@@ -67,7 +67,12 @@ nav:
                 - 'Pipeline': 'ai/aws/sagemaker/pipeline.md'
             - 'BedRock': 'ai/aws/bedrock/index.md'
     - GitHub:
-        - 'GitHub API': 'github/api/index.md'
+        - 'API':
+          - 'Commits': 'github/api/commits.md'
+          - 'Releases': 'github/api/releases.md'
+          - 'Repository': 'github/api/repository.md'
+          - 'Teams': 'github/api/teams.md'
+          - 'Runner group': 'github/api/runner-group.md'
         - 'Runners':    'github/runners/bash.md'
         - 'GitHub App': 'github/github-app/get-temp-token.md'
     - GitLab:
