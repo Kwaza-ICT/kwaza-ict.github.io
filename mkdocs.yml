@@ -24,6 +24,12 @@ nav:
     - Home: 'index.md'
     - AWS:
         - Data Store: 'aws/data-store/index.md'
+        - 'AutoScaling':
+            - 'Basics': 'aws/architecting-to-scale/index.md'
+            - 'Auto scaling': 'aws/architecting-to-scale/auto-scaling.md'
+            - 'Compute Optimizer': 'aws/architecting-to-scale/compute-optimizer.md'
+            - '': 'aws/architecting-to-scale/'
+            - '': 'aws/architecting-to-scale/'
         - Migration:
             - 'About': 'aws/migrations/index.md'
             - 'Hybrid architectures': 'aws/migrations/hybrid-architectures.md'
