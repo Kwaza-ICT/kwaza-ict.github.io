@@ -28,8 +28,17 @@ nav:
             - 'Basics': 'aws/architecting-to-scale/index.md'
             - 'Auto scaling': 'aws/architecting-to-scale/auto-scaling.md'
             - 'Compute Optimizer': 'aws/architecting-to-scale/compute-optimizer.md'
-            - '': 'aws/architecting-to-scale/'
-            - '': 'aws/architecting-to-scale/'
+            - 'CloudFront': 'aws/architecting-to-scale/cloudfront.md'
+            - 'DynamoDB': 'aws/architecting-to-scale/dynamodb-scaling.md'
+            - 'Elastic Map Reduce': 'aws/architecting-to-scale/elastic-map-reduce.md'
+            - 'Event driven architecture': 'aws/architecting-to-scale/event-driven-architecture.md'
+            - 'Kinesis': 'aws/architecting-to-scale/kinesis.md'
+            - 'Monitoring and visualizing': 'aws/architecting-to-scale/monitoring-and-visualizing.md'
+            - 'Scaling Containers': 'aws/architecting-to-scale/scaling-containers.md'
+            - 'Serverless': 'aws/architecting-to-scale/serverless.md'
+            - 'SQS': 'aws/architecting-to-scale/sqs.md'
+            - 'Step Functions': 'aws/architecting-to-scale/step-functions.md'
+            - 'SNS': 'aws/architecting-to-scale/sns.md'
         - Migration:
             - 'About': 'aws/migrations/index.md'
             - 'Hybrid architectures': 'aws/migrations/hybrid-architectures.md'
@@ -51,6 +60,8 @@ nav:
             - 'Hybrid and cross account network': 'aws/networking/hybrid-and-cross-account-networking.md'
             - 'CloudFront': 'aws/networking/cloudfront.md'
             - 'Elastic Load Balancer': 'aws/networking/elastic-load-balancer.md'
+        - 'Cost Management':
+            - 'Concept': 'aws/cost-management/index.md'
     - AI:
         - 'Basics':
             - 'Very basic': 'ai/basics/index.md'
