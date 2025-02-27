@@ -45,5 +45,15 @@ The maximum amount of data that can be lost before it starts to impact the busin
 | Infra                 | Lack of sufficient capacity                                    |
 | Human                 | Always a mistake made by someone                               |
 
-## High Availability
+## Outputs
+
+ - General Concepts
+   - Know the difference between Business Continuity, Disaster Recovery, High Availability, and Fault Tolerance.
+   - Know the difference between Recovery Time Objective (RTO) and Recovery Point Objective (RPO).
+   - Understand the 4 options for Disaster Recovery: Backup and Restore, Pilot Light, Warm Standby, and Multi-Site.
+ - Storage Options
+    - Understand RAID and the potential benefits of using it.
+ - Compute Options
+    - Understand why horizontal scaling is preferred from an HA perspective.
+
 
