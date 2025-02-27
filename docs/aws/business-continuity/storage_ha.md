@@ -33,3 +33,20 @@ Use RAID 0 and RAID 1 on AWS
  - Can be accessed by multiple EC2 instances
  - Can be accessed from all AZs in a region
  - Mount targets are highly available
+
+## Other options
+
+### Amazon Storage Gateway
+
+ - Good way to migrate on-prem data to AWS for offsite backuo
+ - Best for continuous sync needs
+
+### AWS Snowball
+
+ - Various options for migrating data to AWS based on volume
+ - Only for batch transfer of data
+
+### Glacier
+
+ - Safe offsite archive storage
+ - Low cost
