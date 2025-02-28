@@ -30,3 +30,12 @@
 
  - **Cost**: Running two environments at the same time can be expensive
  - **Data store**: Data store schema is too tihjtly coupled to code changes
+
+## Outputs
+
+ - Types of deployment
+   - what blue-green is recommended or not
+ - Elastic Beanstalk
+   - Deployment options
+ - CloudFormation
+   - Infrastructure as code
