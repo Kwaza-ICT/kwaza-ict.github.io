@@ -80,6 +80,13 @@ nav:
             - 'IoT': 'aws/deployment-and-operations/iot-landscape.md'
             - 'Management Tools': 'aws/deployment-and-operations/management-tools.md'
             - 'System Manager': 'aws/deployment-and-operations/system-manager.md'
+        - 'Business Continuity':
+          - 'About': 'aws/business-continuity/index.md'
+          - 'Compute HA': 'aws/business-continuity/compute_ha.md'
+          - 'Database HA': 'aws/business-continuity/database_ha.md'
+          - 'Disaster Recovery': 'aws/business-continuity/dr.md'
+          - 'Storage HA': 'aws/business-continuity/storage_ha.md'
+          - 'Network HA': 'aws/business-continuity/network_ha.md'
     - AI:
         - 'Basics':
             - 'Very basic': 'ai/basics/index.md'
