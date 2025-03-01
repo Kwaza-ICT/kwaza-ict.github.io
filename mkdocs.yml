@@ -72,6 +72,14 @@ nav:
             - 'About': 'aws/deployment-and-operations/index.md'
             - 'ApiGateway': 'aws/deployment-and-operations/api-gateway.md'
             - 'Elastic Beanstalk': 'aws/deployment-and-operations/beanstalk.md'
+            - 'CloudFormation': 'aws/deployment-and-operations/cloudformation.md'
+            - 'Beanstalk': 'aws/deployment-and-operations/beanstalk.md'
+            - 'CI/CD': 'aws/deployment-and-operations/ci-cd.md'
+            - 'Deploy Infra Across Accounts': 'aws/deployment-and-operations/deploy-infra-across-accounts.md'
+            - 'Enterprise Apps': 'aws/deployment-and-operations/enterprise-apps.md'
+            - 'IoT': 'aws/deployment-and-operations/iot-landscape.md'
+            - 'Management Tools': 'aws/deployment-and-operations/management-tools.md'
+            - 'System Manager': 'aws/deployment-and-operations/system-manager.md'
     - AI:
         - 'Basics':
             - 'Very basic': 'ai/basics/index.md'
