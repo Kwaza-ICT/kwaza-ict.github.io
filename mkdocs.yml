@@ -63,11 +63,11 @@ nav:
         - 'Cost Management':
             - 'Concept': 'aws/cost-management/index.md'
         - 'Security':
-            - 'About': 'aws/cost-management/about.md'
-            - 'ControlAccess': 'aws/cost-management/control-access.md'
-            - 'Direct Services': 'aws/cost-management/direct-services.md'
-            - 'Understand User Access': 'aws/cost-management/understand-user-access.md'
-            - 'Multiple Accounts': 'aws/cost-management/multiple-accounts.md'
+            - 'About': 'aws/security/about.md'
+            - 'ControlAccess': 'aws/security/control-access.md'
+            - 'Direct Services': 'aws/security/direct-services.md'
+            - 'Understand User Access': 'aws/security/understand-user-access.md'
+            - 'Multiple Accounts': 'aws/security/multiple-accounts.md'
     - AI:
         - 'Basics':
             - 'Very basic': 'ai/basics/index.md'
