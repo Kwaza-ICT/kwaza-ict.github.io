@@ -1,0 +1,30 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: jlnaufel
+  namespace: production
+  annotations:
+    nginx.ingress.kubernetes.io/rewrite-target: /
+    kubernetes.io/ingress.class: "nginx2"
+    nginx.ingress.kubernetes.io/http2-push-preload: "true"
+    cert-manager.io/cluster-issuer: "letsencrypt-prod"
+    nginx.ingress.kubernetes.io/server-snippet: |
+      if ($host = "jlnaufel.com") {
+        return 301 https://joaoluiznaufel.com$request_uri;
+      }
+spec:
+  tls:
+    - hosts:
+        - jlnaufel.com
+      secretName: jlnaufel.com-tls
+  rules:
+    - host: jlnaufel.com
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: jlnaufel-svc
+                port:
+                  number: 80
