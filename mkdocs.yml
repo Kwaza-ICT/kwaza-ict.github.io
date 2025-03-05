@@ -20,6 +20,11 @@ theme:
     - navigation.top
     - navigation.instant
 
+extra:
+  analytics:
+    provider: google
+    property: G-8G44E3EEL7
+
 nav:
     - Home: 'index.md'
     - AWS:
