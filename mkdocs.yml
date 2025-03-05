@@ -28,7 +28,9 @@ extra:
 nav:
     - Home: 'index.md'
     - AWS:
-        - Data Store: 'aws/data-store/index.md'
+        - Data Store:
+            - 'About': 'aws/data-store/index.md'
+            - 'Storage Gateway': 'aws/data-store/storage-gateway.md'
         - 'AutoScaling':
             - 'Basics': 'aws/architecting-to-scale/index.md'
             - 'Auto scaling': 'aws/architecting-to-scale/auto-scaling.md'
