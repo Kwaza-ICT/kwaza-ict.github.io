@@ -76,6 +76,7 @@ nav:
             - 'Direct Services': 'aws/security/direct-services.md'
             - 'Understand User Access': 'aws/security/understand-user-access.md'
             - 'Multiple Accounts': 'aws/security/multiple-accounts.md'
+            - 'Move Accounts': 'aws/security/move-accounts.md'
         - 'Deployment and Operations':
             - 'About': 'aws/deployment-and-operations/index.md'
             - 'ApiGateway': 'aws/deployment-and-operations/api-gateway.md'
