@@ -31,6 +31,7 @@ nav:
         - Data Store:
             - 'About': 'aws/data-store/index.md'
             - 'Storage Gateway': 'aws/data-store/storage-gateway.md'
+            - 'Fsx': 'aws/data-store/fsx.md'
         - 'AutoScaling':
             - 'Basics': 'aws/architecting-to-scale/index.md'
             - 'Auto scaling': 'aws/architecting-to-scale/auto-scaling.md'
@@ -131,6 +132,8 @@ nav:
             - 'Upgrade 14 to 15':       'gitlab/14-to-15.md'
             - 'Upgrade 15 to 16':       'gitlab/15-to-16.md'
             - 'DB migration':           'gitlab/db-migration.md'
+    - OpenAPIs:
+        - 'index': 'API/index.md'
     - Hacking:
         - 'DNS': 'hacking/dns.md'
         - 'Cybersecurity Search Engines': 'hacking/cyber-sec-search-engine.md'
