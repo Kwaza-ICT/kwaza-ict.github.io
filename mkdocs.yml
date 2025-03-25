@@ -133,6 +133,8 @@ nav:
             - 'Upgrade 14 to 15':       'gitlab/14-to-15.md'
             - 'Upgrade 15 to 16':       'gitlab/15-to-16.md'
             - 'DB migration':           'gitlab/db-migration.md'
+    - Mac:
+        - 'Commands': 'mac/index.md'
     - OpenAPIs:
         - 'index': 'API/index.md'
     - Hacking:
