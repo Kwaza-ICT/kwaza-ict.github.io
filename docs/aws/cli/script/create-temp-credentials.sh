@@ -3,7 +3,7 @@
 PROFILE_NAME="profile-name"
 
 # Get the session token and parse the output with jq
-aws sts assume-role --role-arn "arn:aws:iam::123456789:role/role-to-assume" --role-session-name my-session --serial-number arn:aws:iam::393751483396:mfa/my.user --token-code 588989 --duration-seconds 3600 > temp_creds.json
+aws sts assume-role --role-arn "arn:aws:iam::123456789:role/role-to-assume" --role-session-name my-session --serial-number arn:aws:iam::11111111111111:mfa/my.user --token-code 588989 --duration-seconds 3600 > temp_creds.json
 
 # Extract the credentials
 ACCESS_KEY=$(jq -r '.Credentials.AccessKeyId' temp_creds.json)

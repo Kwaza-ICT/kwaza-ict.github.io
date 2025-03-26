@@ -96,6 +96,9 @@ nav:
           - 'Disaster Recovery': 'aws/business-continuity/dr.md'
           - 'Storage HA': 'aws/business-continuity/storage_ha.md'
           - 'Network HA': 'aws/business-continuity/network_ha.md'
+        - 'Athena':
+            - 'Convert access logs from ALB to DB': 'aws/athena/convert-access-logs-from-alb-to-db.md'
+            - 'Useful queries': 'aws/athena/useful-queries.md'
     - AI:
         - 'Basics':
             - 'Very basic': 'ai/basics/index.md'
@@ -117,9 +120,6 @@ nav:
                 - 'Model Monitor': 'ai/aws/sagemaker/model-monitor.md'
                 - 'Pipeline': 'ai/aws/sagemaker/pipeline.md'
             - 'BedRock': 'ai/aws/bedrock/index.md'
-            - 'Athena':
-                - 'Convert access logs from ALB to DB': 'aws/athena/convert-access-logs-from-alb-to-db.md'
-                - 'Useful queries': 'aws/athena/useful-queries.md'
     - GitHub:
         - 'API':
           - 'Commits': 'github/api/commits.md'
