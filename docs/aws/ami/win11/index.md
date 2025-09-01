@@ -23,6 +23,11 @@ You can use tools like **VirtualBox** or qemu-img to convert the ISO to VMDK or 
 3. It will ask for a product key, you can skip this step and continue the installation.
 4. Once the installation is complete, shut down the VM.
 
+#### Preparation before exporting
+
+1. Enable RDP on the Windows 11 VM.
+
+
 ## Second challenge
 
 ### Step 3: Export the VM to OVA
