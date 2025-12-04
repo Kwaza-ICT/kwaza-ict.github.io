@@ -11,3 +11,7 @@
 ## Display Membership ID and Group Name from AWS Identity
 
 [get-member-id-group-name.sh](script/get-member-id-group-name.sh)
+
+## Display DynamoDb table name, if PITR is enabled and how many backups a table have
+
+[check-dynamo-tables.sh](script/check-dynamo-tables.sh)
