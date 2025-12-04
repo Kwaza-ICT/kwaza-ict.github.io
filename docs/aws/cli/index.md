@@ -15,3 +15,11 @@
 ## Display DynamoDb table name, if PITR is enabled and how many backups a table have
 
 [check-dynamo-tables.sh](script/check-dynamo-tables.sh)
+
+## Here’s a script that adds a Name tag to every DynamoDB table, using the table name as the tag value
+
+[add-dynamo-tag-name.sh](script/add-dynamo-tag-name.sh)
+
+## Here’s a script that adds a Name tag to one specific DynamoDB table, using the table name as the tag value
+
+[add-dynamo-tag-name-one-table.sh](script/add-dynamo-tag-name-one-table.sh)
