@@ -24,7 +24,7 @@ jobs:
   build:
 
     name: Lint Docs
-    runs-on: kwaza-runners
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout Code
         uses: actions/checkout@v3

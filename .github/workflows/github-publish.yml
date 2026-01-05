@@ -24,7 +24,7 @@ permissions:
 jobs:
   build:
     name: MkDocs Deploy to GitHub
-    runs-on: kwaza-runners
+    runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v4
