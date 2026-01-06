@@ -1,0 +1,10 @@
+[
+  {
+    "Description": "Imported Rocky 10 OVA Image",
+    "Format": "vmdk",
+    "UserBucket": {
+      "S3Bucket": "kwaza-desktop-images",
+      "S3Key": "rocky10-arm-kde-disk001.vmdk"
+    }
+  }
+]
