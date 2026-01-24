@@ -1,0 +1,42 @@
+'''yaml
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: busybox
+  namespace: stateful-demo
+spec:
+  serviceName: busybox
+  replicas: 1
+  selector:
+    matchLabels:
+      app: busybox
+  template:
+    metadata:
+      labels:
+        app: busybox
+    spec:
+      terminationGracePeriodSeconds: 5
+      containers:
+        - name: busybox
+          image: busybox:1.36
+          command: ["sh", "-c"]
+          args:
+            - |
+              echo "starting $(hostname)";
+              mkdir -p /data;
+              while true; do
+                date >> /data/timestamps.txt;
+                sleep 10;
+              done
+          volumeMounts:
+            - name: data
+              mountPath: /data
+  volumeClaimTemplates:
+    - metadata:
+        name: data
+      spec:
+        accessModes: ["ReadWriteOnce"]
+        resources:
+          requests:
+            storage: 1Gi
+'''
