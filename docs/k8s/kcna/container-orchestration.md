@@ -27,13 +27,13 @@
 # Services
 
 1 - Services expose an application running on a set of Pods as a network service.
-2 - Services Types: 
-    - ClusterIP: Expose internally within the cluster network
-    - NodePort: Expose externally on a static port on each node
-    - LoadBalancer: Expose using a cloud provider load balancer
-    - ExternalName: Provide a DNS name for an external service
+2 - Services Types:
+— ClusterIP: Expose internally within the cluster network
+    – NodePort: Expose externally on a static port on each node
+    – LoadBalancer: Expose using a cloud provider load balancer
+    – ExternalName: Provide a DNS name for an external service
 3 - Headless Services: A service with no cluster IP address.
-4 - A service without a a selector requires any endpoints to be manually created.
+4 - A service without a selector requires any endpoints to be manually created.
 5 - There are two main service discovery mechanisms: DNS and environment variables.
 6 - An Ingress exposes and application externally and routes traffic to a Service. It can also provide additional functionality like SSL termination,
 
@@ -41,9 +41,9 @@
 
 1 - Service Mesh is a software system that provides a way to manage communication between applications components, often adding additional
 functionality like logging, tracing or encryption.
-2 - Two main components of service mesh are the control plane and service proxy/data plane.
+2 - Two main parts of service mesh are the control plane and service proxy/data plane.
 3 - Sidecar - An additional container running in a Pod alongside the main container. 
-4 - Service Mesh Interface (SMI) - A specification for a set of APIs that define a common interface for service mesh implementations.
+4 - Service Mesh Interface (SMI) – A specification for a set of APIs that define a common interface for service mesh implementations.
 
 # Storage
 
