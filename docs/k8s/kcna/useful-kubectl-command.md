@@ -12,58 +12,94 @@ kubectl get all
 kubectl get pods --all-namespaces
 ```
 
-Available Commands:
-clusterrole           Create a cluster role
-clusterrolebinding    Create a cluster role binding for a particular cluster role
-configmap             Create a config map from a local file, directory or literal value
-cronjob               Create a cron job with the specified name
-deployment            Create a deployment with the specified name
-ingress               Create an ingress with the specified name
-job                   Create a job with the specified name
-namespace             Create a namespace with the specified name
-poddisruptionbudget   Create a pod disruption budget with the specified name
-priorityclass         Create a priority class with the specified name
-quota                 Create a quota with the specified name
-role                  Create a role with single rule
-rolebinding           Create a role binding for a particular role or cluster role
-secret                Create a secret using a specified subcommand
-service               Create a service using a specified subcommand
-serviceaccount        Create a service account with the specified name
-token                 Request a service account token
+## Available Commands:
+
+| Command               | Description                                                        |
+|-----------------------|--------------------------------------------------------------------|
+| clusterrole           | Create a cluster role                                              |
+| clusterrolebinding    | Create a cluster role binding for a particular cluster role        |
+| configmap             | Create a config map from a local file, directory or literal value  |
+| cronjob               | Create a cron job with the specified name                          |
+| deployment            | Create a deployment with the specified name                        |
+| ingress               | Create an ingress with the specified name                          |
+| job                   | Create a job with the specified name                               |
+| namespace             | Create a namespace with the specified name                         |
+| poddisruptionbudget   | Create a pod disruption budget with the specified name             |
+| priorityclass         | Create a priority class with the specified name                    |
+| quota                 | Create a quota with the specified name                             |
+| role                  | Create a role with single rule                                     |
+| rolebinding           | Create a role binding for a particular role or cluster role        |
+| secret                | Create a secret using a specified subcommand                       |
+| service               | Create a service using a specified subcommand                      |
+| serviceaccount        | Create a service account with the specified name                   |
+| token                 | Request a service account token                                    |
 
 
-# Create a deployment usinge imperative command
+# Create a deployment using imperative command
+
+```yaml
 kubectl create deployment myapp --image=nginx:1.27
+```
 
+# Scale the deployment
+
+```yaml
 kubectl scale deployment myapp --replicas=3
+```
 
+# Expose the deployment
+
+```yml
 kubectl expose deployment myapp \
 --type=ClusterIP \
 --port=80 \
 --target-port=80
+```
 
-4) Update the image (rolling update)
-   kubectl set image deployment/myapp myapp=nginx:1.28
-5) Add environment variables
-   kubectl set env deployment/myapp ENV=production LOG_LEVEL=info
 
+# Update the image (rolling update)
+
+```yml
+kubectl set image deployment/myapp myapp=nginx:1.28
+```
+
+# Add environment variables
+
+```yml
+kubectl set env deployment/myapp ENV=production LOG_LEVEL=info
+```
+
+# List pods with labels
+
+```yml
 kubectl get pod --show-labels
+```
 
+# Add labels to pods
+
+```yml
 kubectl label pod myapp-85cf5b8c8d-fs764 app=DEBUG --overwrite
+```
 
+# List nodes
+
+```yml
 kubectl get nodes --watch
-
+```
 
 # List all the resources available
+
+```yml
 kubectl api-resources
+```
 
 # Explain a resource type
+
+```yml
 kubectl explain 
+```
 
-# You can create a custom resource definition (CRD)
-CustomResourceDefinition
-
-# What is resource on Kubernetes
+# What is a resource on Kubernetes
 
 In Kubernetes, a resource is an object that represents a component of your cluster, such as pods, services, deployments, nodes, or custom resources. Resources are defined using YAML or JSON manifests and managed via the Kubernetes API. Each resource has a kind, metadata, and a spec that describes its desired state.
 
@@ -113,17 +149,13 @@ spec:
 
  ```
 
-# What is StatefulSet
+# What is a StatefulSet
 
-A StatefulSet is a Kubernetes workload object designed to run stateful applications—apps that require:
-
-Stable network identity
-
-Stable, persistent storage
-
-Ordered startup, scaling, and shutdown
-
-Unlike a Deployment, a StatefulSet does not treat Pods as interchangeable.
+ - A StatefulSet is a Kubernetes workload object designed to run stateful applications—apps that require:
+ - Stable network identity 
+ - Stable, persistent storage 
+ - Ordered startup, scaling, and shutdown 
+ - Unlike a Deployment, a StatefulSet does not treat Pods as interchangeable.
 
 # What is DaemonSet
 
@@ -135,7 +167,6 @@ A Job creates one or more Pods and ensures that a specified number of them succe
 
 # What is CronJob
 
-A CronJob creates Jobs on a schedule.
-
-Cronjob creates a Job and a job creates a pod
+ - A CronJob creates Jobs on a schedule. 
+ - Cronjob creates a Job and a job creates a pod
 

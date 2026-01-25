@@ -149,6 +149,15 @@ nav:
     - Kubernetes:
         - 'Pods': 'k8s/pods.md'
         - 'Force Pod termination': 'k8s/delete-stuck-pod.md'
+        - 'KCNA':
+          - 'Basic Info': 'k8s/kcna/basic-info.md'
+          - 'Application Delivery': 'k8s/kcna/application-delivery.md'
+          - 'Cloud native architecture': 'k8s/kcna/cloud-native-architecture.md'
+          - 'Container Orchestration': 'k8s/kcna/container-orchestration.md'
+          - 'Deployment': 'k8s/kcna/deployment.md'
+          - 'CronJob': 'k8s/kcna/cronjob.md'
+          - 'ReplicaSet': 'k8s/kcna/replica-set.md'
+          - 'Useful kubectl commands': 'k8s/kcna/useful-kubectl-commands.md'
     - RedHat:
         - 'subscription': 'redhat/subscription.md'
     - Zsh:
